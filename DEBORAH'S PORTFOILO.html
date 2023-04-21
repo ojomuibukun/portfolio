@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>DEBORAH'S PORTFOLIO</title>
+    <link rel="shortcut icon" href="cuboid.jpg" type="image/x-icon">
+    <style>
+      *{
+    margin:0;
+    /* margin:0; */
+}
+body{
+   background: black;
+}
+nav{       
+     background-color: rgba(0, 0, 0, 0.5);
+}
+nav a{
+            color: white;
+            padding-left: 220px;
+            text-decoration: none;
+        }
+ /*Home Section*/
+ #home{
+   display:flex;
+   flex-direction: column;
+   height: 650px;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(0, 0, 0, 0.5);
+ }
+ #home .row{
+   display: flex;
+   width: 100%; 
+ }
+ #home .row .col1{
+   flex-basis: 40%;
+   padding-left:10px;
+   text-align: center;
+   color: white;
+   padding-top:150px;
+ }
+ #home .row .col2 img{
+   width: 500px;
+   height: 500px;
+   padding-left: 100px;
+ }
+.heading{
+   color:white;
+   font-size: 35px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+   transform: scale(1,1.3);
+}
+/*------Educational backgrounds Section--------*/
+#education{
+   display: flex;
+   flex-direction: column;
+   background-color: #000000dc;
+   }
+   .columns{
+      display:grid;
+      grid-template-columns:auto auto;
+ }
+   .box{
+      height:70px;
+      font-weight:20;
+      background-color: rgba(255, 255, 255,0.1);
+      border-radius:10px;
+      margin: 15px;
+      padding: 25px;
+      text-align: center;
+      padding-top: 40px;
+   }
+.box h2{
+      color: yellowgreen;
+      font-size: 2rem;
+      margin-bottom:45px;
+      padding-bottom: 20px;
+}
+.box p{
+   color: white;
+   font-size: 1.1rem;
+}
+/* About Section*/
+#about{
+   display:flex;
+   flex-direction:column;
+}
+.about{
+   display: flex;
+   color: white;
+   background: black;
+   font-size: 40px;
+}
+.about .name{
+   padding-top: 40px;
+}
+.about .image {
+   flex-basis:30%;
+}
+.image img{
+   width: 300px;
+   padding-left:40px;
+   padding-top: 300px;
+}
+/* ---------skills-------------- */
+main{
+   color: white;
+}
+main h1{
+   font-size: 35px;
+   text-align: center;
+}
+main .row{
+   display: flex;
+}
+main .row .col1, main .row .col2, main .row .col3{
+   flex-basis: 30%;
+   padding-left: 70px;
+}
+main .row .col1 h4, main .row .col2 h4, main .row .col3 h4{
+   color: white;
+   font-size: 25px;
+}
+main .row .col1 p{
+   color: green;
+}
+main .row .col2 p{
+   color: yellow;
+}
+main .row .col3 p{
+   color: red;
+}
+footer span{
+   color: yellowgreen;
+}
+footer h4{
+   color: white;
+   text-align: center;
+   font-size: 30px;
+}
+@media only screen and (max-width:450px){
+   nav{
+      width:100%;
+      display:block;
+   }
+   nav a{
+      font-size:20px;
+   }
+   section .heading{
+      width: 100%;
+      padding-right: 50px;
+   }
+   section .about .img{
+      width: 100%;
+      padding-top: 400px;
+   }
+   div .colums .box{
+     width: 100%;
+      padding-top: 50px;
+   }
+   .colums .box{
+      background: blue;
+   }
+}
+
+    </style>
+</head>
+<body>
+   <div class="page">
+      <nav>
+         <br>
+         <a href="#home">Home</a>
+         <a href="#about">About me</a>
+         <a href="#education">Education</a>
+         <a href="#skills">Skills</a>
+     </nav>
+        <section id="home">
+         <div class="row">
+            <div class="col1">
+               <h1 class="heading"> HI, I AM</h1>
+           <h1 class="heading">DEBORAH OJOMU</h1> 
+           <p>AND THIS IS MY PORTFOLIO.</p> 
+            </div>
+            <div class="col2">
+               <img src="DJ.JPG" alt="">
+            </div>
+         </div>
+              
+        </section>
+   </div>
+     <section id="education">  
+      <h1 class="heading">Educational Backgrounds</h1>
+        <div class="columns">
+            <div class="box">                                                                                              
+         <h2>Bachelor In Mass Communciation.</h2>
+        <p>Is a course that shares information with a large audience,it consist of different branch. <br>broadcasting,advertisment,e.t.c</p>
+        </div>
+        <div class="columns">
+            <div class="box">                                                                                              
+         <h2>National Diploma In Mass Communciation.</h2>
+          </div>
+         <div class="colums">
+            <div class="box"> 
+            <h2>Command Secondary school, Suleja.</h2>
+            </div>
+             <div class="colums">
+             <div class="box">
+                <h2>Command Nursery/Primary School, Abuja.</h2>
+                </div>
+             </section>
+             <section id="about">
+                
+                <div class="about">
+                  <div class="image">
+                     <img src="IMG_7336.jpeg" alt="">
+                    </div>
+                <div class="name">
+                  <h1 class="heading">About me</h1>
+                  <br>
+                    <h2>I'm Deborah Temitope Ojomu</h2>
+                    <p>Deborah is a lover of Christ, dark in complexion and from a family of 6. first out of 4 girls, <br> I hail from ondo state,akure south precisely.
+                    <br>currently studying at Nasarawa State Univserity, born in kano state,<b></b>Presently staying at Mambilla Barracks, Asokoro Abuja.
+                    <br>I love to study, read books,and watch videos on youtube.. <br>A Skilled communciator and Depth multi-tasker. <br>
+                    Furthermore, am learning web design which is interesting because it's a lot of work, it involve coding, <br>
+                    calculating, and stylying of a web page that users can see and interact with.<br>Web desgin has branches such as,data analysis,database design,scripting/coding,software development. e.t.c <br> Am a potential front end developer.
+
+                 </p>
+                 
+                </div>
+                </div>
+             </section>
+             <main>
+               <h1 id="skills">SKILLS</h1>
+               <div class="row">
+                  <div class="col1">
+                     <h4>HTML5</h4>
+                     <p>81%</p>
+                  </div>
+                  <div class="col2">
+                     <h4>CSS</h4>
+                     <p>58%</p>
+                  </div>
+                  <div class="col3">
+                     <h4>JavaScript</h4>
+                     <p>31%</p>
+                  </div>
+               </div>
+             </main>
+<br><br>
+             <footer>
+               <h4>Deborah <span>Portfolio </span> &copy; 2023</h4>
+             </footer>
+                                                                                                                                            
+
+
+    </body>
+</html>
